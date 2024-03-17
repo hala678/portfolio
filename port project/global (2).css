@@ -1,0 +1,73 @@
+
+.body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+justify-content:center;
+margin-top: 20%;
+margin-bottom: 30%;
+min-height: 70vh;
+width: 70%;
+display: flex;
+align-items: center;
+
+border-style: double;
+}
+.profilecontainer{
+    width: 80%;
+    padding: 50px 8%;
+    
+}
+.profilecontents{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 50px;
+    background-color: rgb(20, 89, 150);
+    color: white;
+}
+.img{
+    float: left;
+   width: 22rem;
+   height: 26rem;
+    
+   margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 30%;
+    
+   
+}
+.aboutme{
+    font-size: 20px;
+    gap: 17rem;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 26rem;
+}
+@media(max-width: 1280px){
+    .profilecontents{
+        
+            display: grid;
+            grid-template-columns: 1fr;
+           
+            background-color: rgb(20, 89, 150);
+            color: white;
+        padding: 5%;
+    }
+    .aboutme{
+    grid-template-columns:1fr ;
+    }
+    .profilecontents{
+        margin-left: 1%;
+        grid-template-columns: 1fr;
+    }
+    .aboutme{
+        padding: 10px;
+        
+            font-size: 20px;
+            gap: 10rem;
+            margin-left: 10%;
+            margin-top: 10%;
+           
+        height: 26rem;
+    }
+}
+
